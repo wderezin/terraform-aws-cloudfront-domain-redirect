@@ -1,7 +1,7 @@
 
 variable lambda_name {
   type        = string
-  default     = "lambdaedge_apex_domain_redirect"
+  default     = "cloudfront_apex_domain_redirect"
   description = "Name of lambda"
 }
 
