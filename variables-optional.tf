@@ -5,12 +5,6 @@ variable lambda_name {
   description = "Name of lambda"
 }
 
-variable cloudwatch_log_retention_days {
-  type        = number
-  default     = 14
-  description = "Number of days to keep cloudwatch log, set to null to disable"
-}
-
 variable tags {
   type        = map(string)
   default     = {}

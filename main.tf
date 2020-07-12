@@ -16,10 +16,3 @@ resource aws_lambda_function lambda {
   filename         = data.archive_file.lambdazip.output_path
   source_code_hash = data.archive_file.lambdazip.output_base64sha256
 }
-
-resource aws_cloudwatch_log_group logs {
-  count             = local.cloudwatch_log_retention_days == null ? 0 : 1
-  name              = "/aws/lambda/${aws_lambda_function.lambda.function_name}"
-  retention_in_days = local.cloudwatch_log_retention_days
-  tags              = local.tags
-}
