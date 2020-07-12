@@ -10,7 +10,7 @@ resource aws_lambda_function lambda {
   role          = aws_iam_role.lambda.arn
   publish       = true
   runtime       = "nodejs12.x"
-  handler       = "index"
+  handler       = "index.handler"
   tags          = local.tags
 
   filename         = data.archive_file.lambdazip.output_path
