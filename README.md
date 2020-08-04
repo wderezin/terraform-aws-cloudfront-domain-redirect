@@ -2,7 +2,7 @@
 
 A [Daring Way](https://www/daringway.com/) opinionated approach on how to create a cloudfront redirector from an apex domain to www. (daringway.com -> www.daringway.com)
 
-    Contestant: AWS for $600.
+    Contestant: AWS for $600, Alex.
     Alex: How you easily configure AWS Cloudfront to domain redirection?
     Contestant: What is the Daring Way AWS Cloudfront Domain Redirect Terraform Module.
     Alex: That is correct.
