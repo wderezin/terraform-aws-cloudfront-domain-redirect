@@ -1,5 +1,5 @@
 
 locals {
-  lambda_name                   = var.lambda_name
-  tags                          = var.tags
+  lambda_name = var.lambda_name
+  tags        = var.tags
 }
