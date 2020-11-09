@@ -1,6 +1,5 @@
 exports.handler = async (event) => {
   const request = event.Records[0].cf.request;
-
   let host = request.headers.host[0].value
 
   const body = `
